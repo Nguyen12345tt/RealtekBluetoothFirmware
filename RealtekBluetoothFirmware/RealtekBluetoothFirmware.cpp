@@ -1,5 +1,8 @@
-#include "RtlBluetoothOps.hpp"
 #include "RealtekBluetoothFirmware.hpp"
+#include "BtRtl.h"
+#include <IOKit/usb/IOUSBHostDevice.h>
+#include <libkern/libkern.h>
+#include "linux.h"
 #include "Log.h"
 
 // Define the metadata for our new class
